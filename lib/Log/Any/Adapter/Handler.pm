@@ -1,4 +1,5 @@
 package Log::Any::Adapter::Handler;
+# ABSTRACT: Log::Any::Adapter::Handler
 our $VERSION = '0.001';
 
 use strict;
