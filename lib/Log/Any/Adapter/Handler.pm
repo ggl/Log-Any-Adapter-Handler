@@ -57,7 +57,7 @@ Log::Any::Adapter::Handler
 =head1 DESCRIPTION
 
 Log::Any adapter for Log::Handler. Log::Handler should be initialized before
-calling C<set>, otherwise you log messages end up nowhere. The Log::Handler
+calling C<set>, otherwise your log messages end up nowhere. The Log::Handler
 object is passed via the logger parameter.
 
 =head1 SEE ALSO

@@ -16,7 +16,7 @@ Log::Any::Adapter::Handler
 # DESCRIPTION
 
 Log::Any adapter for Log::Handler. Log::Handler should be initialized before
-calling `set`, otherwise you log messages end up nowhere. The Log::Handler
+calling `set`, otherwise your log messages end up nowhere. The Log::Handler
 object is passed via the logger parameter.
 
 # SEE ALSO

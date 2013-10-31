@@ -4,7 +4,7 @@
       "Gelu Lupas <gelu@devnull.ro>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.8.0, CPAN::Meta::Converter version 2.132660",
+   "generated_by" : "Minilla/v0.8.1, CPAN::Meta::Converter version 2.132660",
    "license" : [
       "mit"
    ],
@@ -26,6 +26,11 @@
       ]
    },
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      },
       "configure" : {
          "requires" : {
             "CPAN::Meta" : "0",

@@ -8,3 +8,6 @@ on configure => sub {
 	requires 'Module::Build';
 };
 
+on build => sub {
+	requires 'Test::More', '0.98';
+};
