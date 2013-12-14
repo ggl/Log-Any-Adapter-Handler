@@ -6,7 +6,9 @@ inc/
 Build
 !Build/
 Build.bat
+Build.PL
 .last_cover_stats
+.prove
 Makefile
 Makefile.old
 MANIFEST.bak
